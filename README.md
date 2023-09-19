@@ -20,19 +20,18 @@ In this lab we will be setting up shared network files & permissions. We will cr
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/k70dozS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/4e50919a-0589-4d5f-a2be-83bfbbc68233)
+
 <p>
 After the folders have been created what you want to do is share them on the network so that the client-1 machine can view them. We can also set the permissions of the folders in DC-1. Set the folders to the appropriate permissions. "read-access" should be read only for domain users, "read/write access" shuld have read/write permissions for domain users. Lastly "no-access" should have read/write permissions for domain admins only.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/wcpB5Ex.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/hku11Pt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/c0fecba3-8a47-4d6a-96b8-c0aabcff1f00)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/06053cd8-b221-4f5d-8a0a-9c079a9ff471)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/63ae4e72-16c9-4827-82b4-3988cf368a5e)
+
+
 If we login to the client machine with a normal user account we can test out the shared files we just created. As you can see the permissions that we set are working properly.
 </p>
 <br />
