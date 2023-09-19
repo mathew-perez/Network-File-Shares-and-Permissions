@@ -35,18 +35,22 @@ After the folders have been created what you want to do is share them on the net
 If we login to the client machine with a normal user account we can test out the shared files we just created. As you can see the permissions that we set are working properly.
 </p>
 <br />
-<p>
-<img src="https://i.imgur.com/CGQ8yaO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/f9TldBO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
+
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/51371298-f124-4a3c-a621-f192c8affbab)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/50dcb472-6926-4dd3-87be-cbd34b717928)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/4ea3bdf5-947d-47c1-af0a-61a0b59b8420)
+
+
 </p>
 Go back to the DC-1 VM. In AD create a security group called "Accountants" the users assigned to this security group will be the only ones allowed to view the "Accountants" folder. We have to share the "Accountants" folder just like we did in the last section, this we will be sharing it to only the accountants group. Normal users will not have access to this folder. If we wanted to give a normal user access to the accounting folder they would have to be a part of the "Accountants" security group.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/QADy92Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/BUm3L2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/fH8fU7b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/6135de66-dc8f-4a9c-a9dc-08281f5b5a78)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/f32b2ab5-e9bc-4e41-b786-c8a08bb0420e)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/e7688ed1-6459-4191-91d3-910fff184186)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/38930871-d5db-4479-b7d3-0e62a37f7ad3)
+![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/a920e50d-9c2e-4d13-9f25-a2b8ff5f21e9)
+
+
