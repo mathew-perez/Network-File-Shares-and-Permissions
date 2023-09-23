@@ -53,4 +53,5 @@ Go back to the DC-1 VM. In AD create a security group called "Accountants" the u
 ![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/38930871-d5db-4479-b7d3-0e62a37f7ad3)
 ![image](https://github.com/mathew-perez/Network-File-Shares-and-Permissions/assets/144407220/a920e50d-9c2e-4d13-9f25-a2b8ff5f21e9)
 
+Hopefully this lab helped you build an intuition regarding network file shares and permissions.
 
